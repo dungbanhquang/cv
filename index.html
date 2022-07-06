@@ -1,150 +1,210 @@
-<!doctype html>
-<html lang="ja">
-<head>
+<!DOCTYPE html><html lang="ja"><head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=-100%, user-scalable=yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=-100%, user-scalable=yes">
     <meta name="format-detection" content="telephone=no">
     <meta property="og:type" content="website">
-    <title></title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Banh Quang Dung Portfolio</title>
+    <meta name="keywords" content="Doan Thanh Tam Portfolio">
+    <meta name="description" content="Doan Thanh Tam Portfolio">
+    <link rel="shortcut icon" type="image/png" href="images/ico_favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery.min.js"></script>
 </head>
-<body>
+<body id="index" class="loaded">
     <div id="wrapper">
-        <header>
-            <nav>
-                <ul class="pc_gnavi">
-                    <li><a href="#index">HOME</a></li>
-                    <li><a href="#about">ABOUT US</a></li>
-                    <li><a href="#portofio">PORTOFIO</a>
-                        <ul>
-                            <li><a href="portofio.html">Frontend</a></li>
-                            <li><a href="wp.html">Wordpress</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#resum">RESUM</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+        <div id="particles-js"></div>
+        <main id="main">
+            <nav id="gnavi">
+                <ul>
+                    <li><a href="#eucation">EDUCATION</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#experiences">EXPERIENCES</a></li>
                 </ul>
-
-            </nav> <label class="icon_menu"><span></span></label>
-        </header>
-        <!--main-->
-        <main>
-            <div id="content">
-<!--                 <div class="box_idx" id="index">
-                    <h1>MY PROJECT</h1>
-                    <ul class="list01">
-                        <li> <span class="tit organ">Magento</span> <a href="images/box_idx_im01L.png" target="_blank"><img src="images/box_idx_im01.jpg" alt="sieuthithucpham.com"></a> <span class="url">sieuthithucpham.com</span> <a href="http://sieuthithucpham.com/" class="btn_view" target="_blank">View</a> </li>
-                        <li> <span class="tit pink">Wordpress</span> <a href="images/box_idx_im02L.png" target="_blank"><img src="images/box_idx_im02.jpg" alt="myphamduongtrang.com"></a> <span class="url">myphamduongtrang.com</span> <a href="http://myphamduongtrang.com/" class="btn_view" target="_blank">View</a> </li>
-                        <li> <span class="tit">Wordpress - Woocommerce</span> <a href="images/box_idx_im03L.png" target="_blank"><img src="images/box_idx_im03.jpg" alt="myphamduongtrang.vn"></a> <span class="url">myphamduongtrang.vn</span> <a href="http://myphamduongtrang.vn/" class="btn_view " target="_blank">View</a> </li>
-                    </ul>
-                </div> -->
-                <!--about-->
-                <div class="box_about" id="about">
-                    <div class="inner">
-                        <h2>ABOUT US</h2>
-                        <p>+ My hoppies: whacting tv, listening to music<br>
-                            + Listening, funny, funny friendly<br>
-                            + I can research and styding new programming language<br>
-                            + Targets, striving
-                           
-                            
-                            </p>
-                    </div>
-                </div>
-                <!--portofio-->
-                <div class="box_portofio" id="portofio">
-                    <h3>MY PROJECTS <span>HTML - CSS - JS - RESPONSIVE</span></h3>
-                    <ul class="list_portofio">
-                        <li>
-                            <a href="images/img88_l.jpg" target="_blank">
-                                <img src="images/img88.jpg" alt="sazanka-dc.com">
-                            </a>
-                            <span class="url">sazanka-dc.com</span>
-                            <a href="https://sazanka-dc.com/" class="btn_view" target="_blank">View</a>
-                        </li>
-                        <li><a href="images/img61_l.jpg" target="_blank"><img src="images/img61.jpg" alt="endure.jp"></a><span class="url">endure.jp</span><a href="https://endure.jp/" class="btn_view" target="_blank">View</a></li>
-                        <li><a href="images/img66_l.jpg" target="_blank"><img src="images/img66.jpg" alt="tabo-perio.com"></a><span class="url">tabo-perio.com</span><a href="https://www.tabo-perio.com/" class="btn_view" target="_blank">View</a></li>
-                        <li><a href="images/img49_l.jpg" target="_blank"><img src="images/img49.jpg" alt="taguchi-dc.tokyo"></a><span class="url">taguchi-dc.tokyo</span><a href="https://www.taguchi-dc.tokyo/" class="btn_view" target="_blank">View</a></li>
-                        <li><a href="images/img47_l.jpg" target="_blank"><img src="images/img47.jpg" alt="kaida-m.co.jp"></a><span class="url">kaida-m.co.jp</span><a href="http://kaida-m.co.jp/" class="btn_view" target="_blank">View</a></li>
-                        <li><a href="images/img53_l.jpg" target="_blank"><img src="images/img53.jpg" alt="tabo-shika-recruit.com"></a><span class="url">tabo-shika-recruit.com</span><a href="http://www.tabo-shika-recruit.com/" class="btn_view" target="_blank">View</a></li>
-                         <li><a href="images/img70_l.jpg" target="_blank"><img src="images/img70.jpg" alt="princeton.co.jp/ultraplus"></a><span class="url">princeton.co.jp/ultraplus</span><a href="https://www.princeton.co.jp/ultraplus/" class="btn_view" target="_blank">View</a></li>
-                          <li><a href="images/img73_l.jpg" target="_blank"><img src="images/img73.jpg" alt="heisei-park.com"></a><span class="url">heisei-park.com</span><a href="http://www.heisei-park.com/" class="btn_view" target="_blank">View</a></li>
-                        <li><a href="images/img76_l.jpg" target="_blank"><img src="images/img76.jpg" alt="healthdimond.com"></a><span class="url">healthdimond.com</span><a href="https://healthdimond.com/" class="btn_view" target="_blank">View</a></li>
-                    </ul>
-                    <!-- <p class="btn-more"><a href="portofio.html">View More</a></p> -->
-                </div>
-                <!--resum-->
-                <div id="resum" class="box_resume">
-                    <div class="inner">
-                        <h3>RESUME</h3>
-                        <div class="list_resume wow">
-                            <dl>
-                                <dt>WORK HISTORY</dt>
-                                <dd>
-                                    <!--01-->
-                                    <p class="date">APR 2021 - CURRENT</p>
-                                    <p class="posi">FRONT END - WORDPRESS DEVELOPER</p>
-                                    <p class="company">Vietry (Freesale Viet Nam)</p>
-                                    <p class="txt">+ I Currently work for Vietry(Freesale Vietnam). I create usable web interfaces, front end coding stuff and almost anything.<br/>
-                                    + Self check perfect pixel.<br/>
-                                    + Custom plugin wordpress.</p>
-                                    <!--02-->
-                                    <p class="date">2020 - DEC 2021</p>
-                                    <p class="posi">FRONT END DEVELOPER</p>
-                                    <p class="company">AZSERVICES</p>
-                                    <p class="txt">+ I worked as a Front end Developer at AZSERVICES software, I create usable web interfaces, front end coding
-                                        such as: PHP, Wordpess, MySQL, Woocommerce plugin worpdress, HTML , CSS, JS.<br/>
-                                    + Ecosystem app Azservice.</p>
-                                    <!--02-->
-                                    
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt>CODING SKILLS</dt>
-                                <dd>
-                                    <ul class="list_skill">
-                                        <li class="w_95"><span class="name">HTML5</span><span class="percent">95%</span></li>
-                                        <li class="w_95"><span class="name">CSS3</span><span class="percent">95%</span></li>
-                                        <li class="w_100"><span class="name">CSS</span><span class="percent">100%</span></li>
-                                        <li class="w_98"><span class="name">Responsvie</span><span class="percent">98%</span></li>
-                                        <li class="w_65"><span class="name">JS</span><span class="percent">65%</span></li>
-                                        <li class="w_70"><span class="name">Wodrpess</span><span class="percent">70%</span></li>
-                                        <li class="w_65"><span class="name">Photoshop</span><span class="percent">65%</span></li>
-                                        <li class="w_75"><span class="name">PHP</span><span class="percent">75%</span></li>
-                                        <li class="w_70"><span class="name">MySql</span><span class="percent">70%</span></li>
-
-                                    </ul>
-                                </dd>
-                            </dl>
-                        </div>
-                    </div>
-                </div>
-                <!--contact-->
-                <div id="contact" class="box_contact">
-                    <div class="inner">
-                        <h4>CONTACT</h4>
-                        <ul class="list_contact">
-                            <li>+ My Name: BANH QUANG DUNG </li>
-                            <li>+ Birthday : 22/07/1998 </li>
-                            <li>+ Email: dungbanhquang@gmail.com </li>
-                            <li>+ Address: Tam Quan, Hoai Nhon, Binh Dinh </li>
-                            <li>+ Phone: 0988203338 </li>
+            </nav>
+            <div id="mainvisual">
+                <div class="main-content">
+                    <div class="main-des">
+                        <h2>Bành Quang Dũng</h2>
+                        <ul class="main-list">
+                            <li>22/07/1998</li>
+                            <li><a href="tel:0703688835" class="sweetlink">0988203338</a></li>
+                            <li><a href="mailto:dungbanhquang@gmail.com">dungbanhquang@gmail.com</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <section>
+                <div class="container">
+                    <h3 id="eucation" class="wow fadeInUp">EDUCATION</h3>
+                    <ul class="idx-list">
+                        <li class="wow fadeInUp"><span class="bold">Sept 2016 - Apr 2019 : </span>FPT Polytechnic<br/>
+                        Major: Software Development</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <h3 id="skills" class="wow fadeInUp">SKILLS</h3>
+                    <ul class="idx-list">
+                        <li class="wow fadeInUp">HTML5, CSS3, JavaScript/jQuery, Bootstrap, SCSS</li>
+                        <li class="wow fadeInUp">Wordpress</li>
+                        <li class="wow fadeInUp">Adobe Photoshop, Adobe Illustrator, Adobe XD</li>
+                        <li class="wow fadeInUp">Check perfect pixel</li>
+                        <li class="wow fadeInUp">Teamwork</li>
+                        <li class="wow fadeInUp">Can communicate English basic</li>
+                    </ul>
+                </div>
+            </section>
+        <!-- <section>
+            <h3 id="experiences"  class="wow fadeInUp">KINH NGHIỆM LÀM VIỆC</h3>
+            <h4 class="wow fadeInUp">PART TIME</h4>
+            <p class="wow fadeInUp idx-tlt">2017</p>
+            <ul class="idx-list">
+                <li class="wow fadeInUp"><a target="_blank" href="https://www.facebook.com/dtfood2017/">Quản trị Fanpage DTFood</a></li>
+            </ul>
+            <p class="wow fadeInUp idx-tlt">2020</p>
+            <ul class="idx-list">
+                <li class="wow fadeInUp"><a target="_blank" href="https://www.facebook.com/hangthailanchinhhang100/">Quản trị Fanpage Hàng tiêu dùng Thái Lan</a></li>
+            </ul>
+        </section> -->
+        <!-- <section> -->
+            <!-- <h4 class="wow fadeInUp">FULL TIME</h4>
+            <p class="idx-tlt wow fadeInUp">Nhân viên nhập liệu tại Công Ty Dược Bạch Yến<span>1 / 2018 - 7/2018 </span></p>
+            <p class="wow fadeInUp">Nội dung công việc :</p>
+            <ul class="idx-list mb30">
+                <li class="wow fadeInUp">Kiểm tra máy móc, thiết bị máy tính, xử lý lỗi phần mềm quản lý thuốc</li>
+                <li class="wow fadeInUp">Nhập đơn hàng thuốc, mã thuốc, tên thuốc, quản lý đơn hàng trong kho</li>
+            </ul> -->
+            <!-- </section> -->
+            <div class="section">
+                <h3 id="experiences" class="wow fadeInUp">WORK EXPERIENCES</h3>
+                <p class="idx-tlt wow fadeInUp">AZSERVICE CO., LTD <span>Sep 2020 - Dec 2021</span></p>
+                <ul class="idx-list mb30">
+                    <li class="wow fadeInUp">I create usable web interfaces, front end coding such as: PHP, Wordpess, MySQL, Woocommerce plugin worpdress, HTML , CSS, JS.</li>
+                    <li class="wow fadeInUp">Cut template from PSD, AI, XD, Firma,... to HTML, CSS</li>
+                    <li class="wow fadeInUp">Check, fix errors and optimize website on devices.</li>
+                    <li class="wow fadeInUp">Setup template, custom plugin wordpress</li>
+                    <li class="wow fadeInUp">Team work and schedule.</li>
+                    <li class="wow fadeInUp">Ecosystem app Azservice.</li>
+                </ul>
+            </div>
+            <div class="section">
+                <p class="idx-tlt wow fadeInUp">VIETRY CO., LTD <span>Apr 2021 - Present</span></p>
+                <ul class="idx-list mb30">
+                    <li class="wow fadeInUp">Participate in designing and coding Japanese website interface.</li>
+                    <li class="wow fadeInUp">Cut template from PSD, AI, XD, Firma,... to HTML, CSS</li>
+                    <li class="wow fadeInUp">Check, fix errors and optimize website on devices.</li>
+                    <li class="wow fadeInUp">Setup template, custom plugin wordpress</li>
+                    <li class="wow fadeInUp">Check perfect pixel.</li>
+                    <li class="wow fadeInUp">Team work and schedule.</li>
+                </ul>
+                <p class="wow fadeInUp">MY PROJECTS</p>
+                <ul class="idx-project mb30">
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://ahlustore.com/pos" target="_blank"><img src="images/idx_img41.jpg" alt="iamsale"></a><span>Ahlupos sales</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.ai-sakata.com/" target="_blank"><img src="images/idx_img01.jpg" alt="ai-sakata"></a><span>ai-sakata</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://www.towaco.co.jp/" target="_blank"><img src="images/idx_img02.jpg" alt="towaco"></a><span>towaco</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://enishi168.com/" target="_blank"><img src="images/idx_img03.jpg" alt="enishi"></a><span>enishi</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.fukutokukensetsu.jp/" target="_blank"><img src="images/idx_img04.jpg" alt="fukutokukensetsu"></a><span>fukutokukensetsu</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="http://www.jatm.ru/" target="_blank"><img src="images/idx_img05.jpg" alt="jatm.ru"></a><span>jatm</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="http://www.tm-satei.com/" target="_blank"><img src="images/idx_img06.jpg" alt="tm-satei"></a><span>tm-satei</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.happy-myhouse.com/" target="_blank"><img src="images/idx_img07.jpg" alt="happy-myhouse"></a><span>happy-myhouse</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://www.honkoma.com/" target="_blank"><img src="images/idx_img08.jpg" alt="honkoma"></a><span>honkoma</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="yayoi-fudousan" target="_blank"><img src="images/idx_img09.jpg" alt="yayoi-fudousan"></a><span>yayoi-fudousan</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://kskmdc.jp/" target="_blank"><img src="images/idx_img10.jpg" alt="kskmdc"></a><span>kskmdc</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="lixil-realty" target="_blank"><img src="images/idx_img11.jpg" alt="lixil-realty"></a><span>lixil-realty</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="eisei-realty" target="_blank"><img src="images/idx_img12.jpg" alt="eisei-realty"></a><span>eisei-realty</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.princeton.co.jp/ultraplus/" target="_blank"><img src="images/idx_img13.jpg" alt="princeton-ultraplus"></a><span>princeton-ultraplus</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="http://www.gtec-japan.com/" target="_blank"><img src="images/idx_img14.jpg" alt="gtec-japan"></a><span>gtec-japan</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.keishou-i.jp/" target="_blank"><img src="images/idx_img15.jpg" alt="keishou-i"></a><span>keishou-i</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.endure-fc.com/" target="_blank"><img src="images/idx_img16.jpg" alt="endure-fc"></a><span>endure-fc</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://xn--ihq79iwsgzvcy8wmts606c.com/" target="_blank"><img src="images/idx_img17.jpg" alt="だんらん住宅"></a><span>だんらん住宅</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="http://www.r-iwami.jp/" target="_blank"><img src="images/idx_img18.jpg" alt="r-iwami"></a><span>r-iwami</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="http://www.smile-home.jp/" target="_blank"><img src="images/idx_img19.jpg" alt="smile-home"></a><span>smile-home</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="sanko kasei" target="_blank"><img src="images/idx_img20.jpg" alt="sanko kasei"></a><span>sanko kasei</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="http://assistgroup.co.jp/" target="_blank"><img src="images/idx_img21.jpg" alt="assistgroup"></a><span>assistgroup</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="http://www.sakurahousing-kaitori.com/" target="_blank"><img src="images/idx_img22.jpg" alt="sakurahousing-kaitori"></a><span>sakurahousing-kaitori</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://www.dentaloffice-nishikawaguchi.jp/" target="_blank"><img src="images/idx_img23.jpg" alt="dentaloffice-nishikawaguchi"></a><span>dentaloffice-nishikawaguchi</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.zahne.jp/" target="_blank"><img src="images/idx_img24.jpg" alt="zahne-nishikawaguchi"></a><span>zahne</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.mimo-dental.jp/" target="_blank"><img src="images/idx_img25.jpg" alt="mimo-dental"></a><span>mimo-dental</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.yamanoue-dc.com/" target="_blank"><img src="images/idx_img26.jpg" alt="yamanoue-dc"></a><span>yamanoue-dc</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="kyoto-photo-studio/" target="_blank"><img src="images/idx_img27.jpg" alt="kyoto-photo-studio"></a><span>kyoto-photo-studio</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.mariko-dentalclinic.com/" target="_blank"><img src="images/idx_img28.jpg" alt="mariko-dentalclinic"></a><span>mariko-dentalclinic</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://dentalofficeharu.com/" target="_blank"><img src="images/idx_img29.jpg" alt="dentalofficeharu"></a><span>dentalofficeharu</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://sanchafu.com/" target="_blank"><img src="images/idx_img30.jpg" alt="sanchafu"></a><span>sanchafu</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="mariko-dentalclinic/" target="_blank"><img src="images/idx_img30_2.jpg" alt="mariko-dentalclinic"></a><span>mariko-dentalclinic</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="http://www.brilliant-ex.com/" target="_blank"><img src="images/idx_img30_1.jpg" alt="brilliant-ex"></a><span>brilliant-ex</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.suzuki-or.com/" target="_blank"><img src="images/idx_img31.jpg" alt="suzuki-or"></a><span>suzuki-or</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.saraya-oralcare.com/" target="_blank"><img src="images/idx_img31_1.jpg" alt="saraya-oralcare"></a><span>saraya-oralcare</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://www.adachi-baikyaku.com/" target="_blank"><img src="images/idx_img33.jpg" alt="adachi-baikyaku"></a><span>adachi-baikyaku</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.gran-azzurri.com/" target="_blank"><img src="images/idx_img34.jpg" alt="gran-azzurri"></a><span>gran-azzurri</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.nagoya-luminous.com/" target="_blank"><img src="images/idx_img35.jpg" alt="nagoya-luminous"></a><span>nagoya-luminous</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="kobayashi" target="_blank"><img src="images/idx_img36.jpg" alt="kobayashi"></a><span>kobayashi</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="fukuoka-vocal" target="_blank"><img src="images/idx_img37.jpg" alt="fukuoka-vocal"></a><span>fukuoka-vocal</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="ys-dental" target="_blank"><img src="images/idx_img42.jpg" alt="fukuoka-vocal"></a><span>ys-dental</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="uragawa-kyousei" target="_blank"><img src="images/idx_img43.jpg" alt="uragawa-kyousei"></a><span>uragawa-kyousei</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="murai_dental/" target="_blank"><img src="images/idx_img55.jpg" alt="murai-dental"></a><span>murai-dental</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.j-sanai.jp/batkeeper/" target="_blank"><img src="images/idx_img44.jpg" alt="j-sanai_batkeeper"></a><span>j-sanai_batkeeper</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://sokenkobo-en.co.jp/lp/" target="_blank"><img src="images/idx_img46.jpg" alt="sokenkobo"></a><span>sokenkobo</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="yumi-d/" target="_blank"><img src="images/idx_img45.jpg" alt="yumi-d"></a><span>yumi-d</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="mukouda01/" target="_blank"><img src="images/idx_img47.jpg" alt="mukouda"></a><span>mukouda</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="mukouda/" target="_blank"><img src="images/idx_img47.jpg" alt="mukouda"></a><span>mukouda fix</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://www.assist-baikyaku.com/" target="_blank"><img src="images/idx_img48.jpg" alt="assist-baikyaku"></a><span>assist-baikyaku</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="cj-chikudenchi/" target="_blank"><img src="images/idx_img49.jpg" alt="cj-chikudenchi"></a><span>cj-chikudenchi</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="brize/" target="_blank"><img src="images/idx_img50.jpg" alt="brize"></a><span>brize</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="sanyo_housing/" target="_blank"><img src="images/idx_img51.jpg" alt="sanyo_housing"></a><span>sanyo_housing</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="yui-real-estate01/" target="_blank"><img src="images/idx_img51_1.jpg" alt="yui-real-estate01"></a><span>yui-real-estate01</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="yui-real-estate02/" target="_blank"><img src="images/idx_img51_1.jpg" alt="yui-real-estate01"></a><span>yui-real-estate01</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="familie-dental/" target="_blank"><img src="images/idx_img52.jpg" alt="familie-dental"></a><span>familie-dental</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="tokatsu-denta/" target="_blank"><img src="images/idx_img53.jpg" alt="tokatsu-denta"></a><span>tokatsu-denta</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="kim-shika/" target="_blank"><img src="images/idx_img54.jpg" alt="kim-shika"></a><span>kim-shika</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="hakkounoie/" target="_blank"><img src="images/idx_img56.jpg" alt="hakkounoie"></a><span>hakkounoie</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="sakura_estate/" target="_blank"><img src="images/idx_img57.jpg" alt="sakura_estate"></a><span>hakkounoie</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="emestate/" target="_blank"><img src="images/idx_img58.jpg" alt="emestate"></a><span>emestate</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="mishima-baikyaku/" target="_blank"><img src="images/idx_img59.png" alt="emestate"></a><span>mishima-baikyaku</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="housakuya_jp/" target="_blank"><img src="images/idx_img58_1.jpg" alt="housakuya_jp"></a><span>housakuya.jp</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="jun_dental_office/" target="_blank"><img src="images/idx_img59.jpg" alt="jun_dental_office"></a><span>jun_dental_office</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="omori_kitaguchi_dc/" target="_blank"><img src="images/idx_img60.jpg" alt="omori_kitaguchi_dc"></a><span>omori_kitaguchi_dc/recruit</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="mejiro_dental/" target="_blank"><img src="images/idx_img61.jpg" alt="mejiro_dental"></a><span>mejiro_dental</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="daishin-baikyaku/" target="_blank"><img src="images/idx_img62.jpg" alt="daishin-baikyaku.com"></a><span>daishin-baikyaku.com</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="mirai_dental/" target="_blank"><img src="images/idx_img63.jpg" alt="mirai_dental"></a><span>mirai-dental.com</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="total_produce_net/" target="_blank"><img src="images/idx_img64.jpg" alt="total_produce_net"></a><span>totalproduce.net</span></li>
+                </ul>
+                <hr class="mb30">
+                <ul class="idx-project">
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.andaresort.jp/" target="_blank"><img src="images/anda_resort.png" alt="Andaresort"></a><span>Andaresort</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://www.andativa-batur.com/" target="_blank"><img src="images/andativa_batur.jpg" alt="Andativa-batur"></a><span>Andativa-batur</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.balian.jp/" target="_blank"><img src="images/balian.png" alt="Balian"></a><span>Balian</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.barong-japan.co.jp/" target="_blank"><img src="images/barong_jpan.png" alt="Barong japan"></a><span>Barong Japan</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://www.benoa.jp/" target="_blank"><img src="images/benoa.jpg" alt="Benoa"></a><span>Benoa</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="http://www.cantic.jp/top.html" target="_blank"><img src="images/catic.png" alt="Cantic"></a><span>Cantic</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.grace-bali.com/" target="_blank"><img src="images/grace_bali.jpg" alt="Grace bali"></a><span>Grace Bali</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://hotel.pasela.co.jp/paselanomori" target="_blank"><img src="images/hotel_pasela.png" alt="Hotel pasela"></a><span>Hotel Pasela</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="http://modis-premium.jp" target="_blank"><img src="images/modis.png" alt="Modis Premium"></a><span>Modis Premium</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.newton-co.jp" target="_blank"><img src="images/newton.png" alt="Newton"></a><span>Newton</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://www.pasela.co.jp" target="_blank"><img src="images/pasela.jpg" alt="Pasela"></a><span>Pasela</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.paselaresorts.com" target="_blank"><img src="images/pasela_resort.png" alt="Pasela Resorts"></a><span>Pasela Resorts</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.qola.co.jp" target="_blank"><img src="images/qola.png" alt="Qola"></a><span>Qola</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://www.sanza.jp" target="_blank"><img src="images/sanza.png" alt="Sanza"></a><span>Sanza</span></li>
+                    <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.welovedogs.jp" target="_blank"><img src="images/welovedog.png" alt="Welovedogs"></a><span>Welovedogs</span></li>
+                </ul>
+            </div>
         </main>
-        <footer>Copyright @ 2021
-            <p id="totop"><a href="#"><img src="images/totop.png" alt="to top" /></a></p>
-        </footer>
-    </div>
-    <script src="js/jquery-2.0.0.min.js"></script>
+        <footer id="footer">
+            <p id="totop"><a href="#wrapper"><img src="images/totop.png" alt="to top"></a></p>
+            <p class="copyright">Copyright © 2021.</p>
+            <ul class="f-call">
+              <li><a class="no-hover" href="tel:0703688835">070 36 888 35</a></li>
+              <li><a class="no-hover" href="mailto:dttam08@gmail.com">Contact</a></li>
+          </ul>
+      </footer>
+  </div>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/sweetlink.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/common.js"></script>
 
-    <script src="js/common.js"></script>
-
-</body>
-
-</html>
+</body></html>
